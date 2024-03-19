@@ -1,31 +1,31 @@
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
 
 train: # train images
-  - /content/drive/MyDrive/Sim10K/images/train
+  - /kaggle/input/confmix-datasets/Cityscapes/Cityscapes/images/train
 val: # val images
-  - /content/drive/MyDrive/Cityscapes/images/val/frankfurt
-  - /content/drive/MyDrive/Cityscapes/images/val/lindau
-  - /content/drive/MyDrive/Cityscapes/images/val/munster
+  - /kaggle/input/confmix-datasets/Cityscapes/Cityscapes/images/val/frankfurt
+  - /kaggle/input/confmix-datasets/Cityscapes/Cityscapes/images/val/lindau
+  - /kaggle/input/confmix-datasets/Cityscapes/Cityscapes/images/val/munster
 test:  # test images (optional)
 uda: 
-  - /content/drive/MyDrive/Cityscapes/images/train/aachen
-  - /content/drive/MyDrive/Cityscapes/images/train/bochum
-  - /content/drive/MyDrive/Cityscapes/images/train/bremen
-  - /content/drive/MyDrive/Cityscapes/images/train/cologne
-  - /content/drive/MyDrive/Cityscapes/images/train/darmstadt
-  - /content/drive/MyDrive/Cityscapes/images/train/dusseldorf
-  - /content/drive/MyDrive/Cityscapes/images/train/erfurt
-  - /content/drive/MyDrive/Cityscapes/images/train/hamburg
-  - /content/drive/MyDrive/Cityscapes/images/train/hanover
-  - /content/drive/MyDrive/Cityscapes/images/train/jena
-  - /content/drive/MyDrive/Cityscapes/images/train/krefeld
-  - /content/drive/MyDrive/Cityscapes/images/train/monchengladbach
-  - /content/drive/MyDrive/Cityscapes/images/train/strasbourg
-  - /content/drive/MyDrive/Cityscapes/images/train/stuttgart
-  - /content/drive/MyDrive/Cityscapes/images/train/tubingen
-  - /content/drive/MyDrive/Cityscapes/images/train/ulm
-  - /content/drive/MyDrive/Cityscapes/images/train/weimar
-  - /content/drive/MyDrive/Cityscapes/images/train/zurich
+  - /kaggle/input/confmix-datasets/Cityscapes/Cityscapes/images/train/aachen
+  - /kaggle/input/confmix-datasets/Cityscapes/Cityscapes/images/train/bochum
+  - /kaggle/input/confmix-datasets/Cityscapes/Cityscapes/images/train/bremen
+  - /kaggle/input/confmix-datasets/Cityscapes/Cityscapes/images/train/cologne
+  - /kaggle/input/confmix-datasets/Cityscapes/Cityscapes/images/train/darmstadt
+  - /kaggle/input/confmix-datasets/Cityscapes/Cityscapes/images/train/dusseldorf
+  - /kaggle/input/confmix-datasets/Cityscapes/Cityscapes/images/train/erfurt
+  - /kaggle/input/confmix-datasets/Cityscapes/Cityscapes/images/train/hamburg
+  - /kaggle/input/confmix-datasets/Cityscapes/Cityscapes/images/train/hanover
+  - /kaggle/input/confmix-datasets/Cityscapes/Cityscapes/images/train/jena
+  - /kaggle/input/confmix-datasets/Cityscapes/Cityscapes/images/train/krefeld
+  - /kaggle/input/confmix-datasets/Cityscapes/Cityscapes/images/train/monchengladbach
+  - /kaggle/input/confmix-datasets/Cityscapes/Cityscapes/images/train/strasbourg
+  - /kaggle/input/confmix-datasets/Cityscapes/Cityscapes/images/train/stuttgart
+  - /kaggle/input/confmix-datasets/Cityscapes/Cityscapes/images/train/tubingen
+  - /kaggle/input/confmix-datasets/Cityscapes/Cityscapes/images/train/ulm
+  - /kaggle/input/confmix-datasets/Cityscapes/Cityscapes/images/train/weimar
+  - /kaggle/input/confmix-datasets/Cityscapes/Cityscapes/images/train/zurich
 
 # Classes
 nc: 1 # number of classes
